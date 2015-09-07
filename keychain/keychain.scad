@@ -1,6 +1,6 @@
 twosided=true;
 
-scale([4/11,4/11,1])
+scale([1/2.54,1/2.54,1]) //convert from inches to mm
 {
     linear_extrude(4)
         import("avatar40mm.dxf",layer="dued");
